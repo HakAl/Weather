@@ -19,12 +19,12 @@ import jacmobile.com.weather.network.requests.GsonRequest;
 import static com.android.volley.Request.Method.GET;
 import static com.android.volley.Request.Method.POST;
 
-public class NetworkModule<T> implements NetworkProvider.NetworkService {
+public class NetworkService<T> implements NetworkProvider.NetworkService {
     private Bus bus;
     private Gson gson;
     private NetworkProvider networkProvider;
 
-    public NetworkModule(NetworkProvider networkProvider, Bus bus, Gson gson) {
+    public NetworkService(NetworkProvider networkProvider, Bus bus, Gson gson) {
         this.networkProvider = networkProvider;
         this.bus = bus;
         this.gson = gson;
