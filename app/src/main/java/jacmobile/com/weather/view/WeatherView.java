@@ -5,6 +5,7 @@ import android.view.View;
 import jacmobile.com.weather.eventbus.events.Update;
 
 public class WeatherView extends ViewController {
+
     @Override public Update provideUpdate() {
         return null;
     }
@@ -20,4 +21,6 @@ public class WeatherView extends ViewController {
     @Override public void onClick(View v) {
 
     }
+
+
 }
