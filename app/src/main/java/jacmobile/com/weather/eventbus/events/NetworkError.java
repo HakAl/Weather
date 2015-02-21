@@ -18,3 +18,12 @@ public class NetworkError extends AEvent {
         this.error = error;
     }
 }
+
+
+
+
+
+
+
+
+
